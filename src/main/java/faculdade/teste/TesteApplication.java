@@ -12,7 +12,7 @@ public class TesteApplication {
 	public String criarContato() {
 		return "Contato criado com sucesso!";
 	}
-	@RequestMapping("/aqui")
+	@GetMapping("/aqui")
 	public String puxarContato() {
 		return "O contato está aqui.";
 	}
